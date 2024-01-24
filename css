@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+img {
+    width: 130px;
+  }
+
+*{
+    margin: 0;
+    padding:0%;
+    box-sizing: content-box;
+}
+.fullContainer{
+    width: 100%;
+    
+}
+.container{
+    width: 1140px;
+    margin:auto;
+    text-decoration-line: none;
+
+}
+header{
+    width:100%;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    color: #fff;
+    background-color: black;
+}
+header nav ul li{
+    display: inline-block;
+    height: 75px;
+    line-height: 80px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    
+
+    transition: 0.2s;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 255, 0);
+    transition: step-start 5s;
+    margin-top: 15px;
+}
+h5{
+    color: aliceblue;
+    line-height: 2;
+    background-color: black;
+    margin-top: -10px;
+    margin-left: 4px;
+}
+
+header nav ul li a:hover{
+    background-color: black;
+    
+}
+.banner{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image: url("https://www.cry.org/wp-content/uploads/donate-to-children-ngo-india.jpg");
+    background-size: cover;
+
+}
+.banner h2{
+    color: black;
+    margin-top: 200px;
+    display: inline-block;
+    font-size: 3.5rem;
+    margin-left: 750px;
+    align-content: center;
+}
+.banner button{
+    margin-left: 950px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 0, 0.863);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-width: 0cap;
+}
+.banner p{
+    margin-left: 755px;
+}
+p{
+    font-size: 0.85rem;
+}
+
+a:link{
+    color:aliceblue;
+}
+.button{
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.2);
+}
+  
